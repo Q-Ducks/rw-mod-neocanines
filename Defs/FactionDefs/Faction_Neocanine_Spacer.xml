@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef>
+		<defName>NeocanineSpacer</defName>
+		<label>Neocanine spacer</label>
+		<categoryTag>Ancient</categoryTag>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<fixedName>Neocanine spacer</fixedName>
+		<description>Xenomorph from the distant reaches of space.</description>
+		<pawnsPlural>Neocanine spacer</pawnsPlural>
+		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<techLevel>Spacer</techLevel>
+        <hairTags>
+            <li>Urban</li>
+        </hairTags>
+		<backstoryFilters>
+			<li>
+				<categories>
+				  <li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<geneticVariance>1</geneticVariance>
+		<hidden>true</hidden>
+		<rescueesCanJoin>true</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+</Defs>

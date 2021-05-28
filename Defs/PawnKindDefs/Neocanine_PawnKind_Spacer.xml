@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef ParentName="BaseNeocaninePawnKind">
+        <defName>Neocanine_Spacer</defName>
+        <label>Neocanine spacer</label>
+        <defaultFactionType>NeocanineSpacer</defaultFactionType>
+        <apparelTags>
+            <li>IndustrialBasic</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>100~400</apparelMoney>
+        <techHediffsChance>0.03</techHediffsChance>
+        <techHediffsMoney>50~250</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+            <li>Simple</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+    </PawnKindDef>
+</Defs>

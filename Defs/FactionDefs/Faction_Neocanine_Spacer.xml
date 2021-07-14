@@ -6,12 +6,13 @@
 		<categoryTag>Ancient</categoryTag>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Neocanine spacer</fixedName>
-		<description>Xenomorph from the distant reaches of space.</description>
+		<description>A bioengineered canine-llke humanoid from the space.</description>
 		<pawnsPlural>Neocanine spacer</pawnsPlural>
 		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
 		<techLevel>Spacer</techLevel>
         <hairTags>
             <li>Urban</li>
+			<li>Rural</li>
         </hairTags>
 		<backstoryFilters>
 			<li>

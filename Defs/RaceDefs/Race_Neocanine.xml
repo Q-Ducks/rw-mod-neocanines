@@ -288,6 +288,7 @@
 					<headOffsetDirectional>
 						<north>(0.0, 0.05)</north>
 						<east>(0.15, 0.05)</east>
+						<west>(-0.15, 0.05</west>
 						<south>(0.0, 0.05)</south>
 					</headOffsetDirectional>
 				</li>

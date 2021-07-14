@@ -6,7 +6,7 @@
 		<categoryTag>Ancient</categoryTag>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Neocanine spacer</fixedName>
-		<description>A bioengineered canine-llke humanoid from the space.</description>
+		<description>A bioengineered canine-llke humanoid landed from the space.</description>
 		<pawnsPlural>Neocanine spacer</pawnsPlural>
 		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
 		<techLevel>Spacer</techLevel>

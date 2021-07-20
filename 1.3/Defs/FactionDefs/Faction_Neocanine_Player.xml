@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<FactionDef ParentName="FactionBase">
-		<defName>NeocanineSpacer</defName>
-		<label>Neocanine spacer</label>
+		<defName>NeocaninePlayerFaction</defName>
+		<label>Neocanine colonist</label>
+		<isPlayer>true</isPlayer>
+		
+		<basicMemberKind>Neocanine_PlayerColonist</basicMemberKind>
+
 		<categoryTag>Ancient</categoryTag>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<fixedName>Neocanine spacer</fixedName>
 		<description>A bioengineered canine-llke humanoid landed from the space.</description>
-		<pawnsPlural>Neocanine spacer</pawnsPlural>
-		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+
 		<techLevel>Spacer</techLevel>
 		<backstoryFilters>
 			<li>
@@ -23,6 +31,7 @@
 		<autoFlee>false</autoFlee>
 		<apparelStuffFilter>
 			<thingDefs>
+				<li>Cloth</li>
 				<li>Synthread</li>
 				<li>Hyperweave</li>
 				<li>Plasteel</li>

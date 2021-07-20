@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <PawnKindDef ParentName="BaseNeocaninePawnKind">
-        <defName>Neocanine_Spacer</defName>
-        <label>Neocanine spacer</label>
-        <defaultFactionType>NeocanineSpacer</defaultFactionType>
+        <defName>Neocanine_PlayerColonist</defName>
+        <label></label>
+        <defaultFactionType>NeocaninePlayerFaction</defaultFactionType>
         <apparelTags>
             <li>IndustrialBasic</li>
         </apparelTags>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Abstract="True" Name="BaseNeocaninePawnKind">
+        <race>Neocanine</race>
+        <combatPower>80</combatPower>
+        <isFighter>true</isFighter>
+        <maxGenerationAge>120</maxGenerationAge>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+    </PawnKindDef>
+</Defs>

@@ -11,6 +11,10 @@
         <apparelMoney>100~400</apparelMoney>
         <techHediffsChance>0.03</techHediffsChance>
         <techHediffsMoney>50~250</techHediffsMoney>
+
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>10~20</initialResistanceRange>
+
         <techHediffsTags>
             <li>Poor</li>
             <li>Simple</li>

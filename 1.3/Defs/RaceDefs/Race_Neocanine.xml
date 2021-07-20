@@ -39,6 +39,8 @@
 				</disallowedTraits>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
+					<atlasScale>3</atlasScale>
+					<borderScale>3</borderScale>
 					<aliencrowntypes>
 						<li>Average_Normal</li>
 					</aliencrowntypes>
@@ -100,25 +102,28 @@
 					<bodyAddons>
 						<li>
 							<drawSize>1.25</drawSize>
+							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBodyMask</path>
 							<bodyPart>Body</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<layerOffset>-.288</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
 									</bodyTypes>
 								</south>
 								<north>
+									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
 									</bodyTypes>
 								</north>
 								<east>
+									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
-										<Male>(.250,-.360)</Male>
+										<Male>(.25,-.40)</Male>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -126,25 +131,28 @@
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
+							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBody</path>
 							<bodyPart>Body</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<layerOffset>-.301</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.301</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
 									</bodyTypes>
 								</south>
 								<north>
+									<layerOffset>-.301</layerOffset>
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
 									</bodyTypes>
 								</north>
 								<east>
+									<layerOffset>-.301</layerOffset>
 									<bodyTypes>
-										<Male>(.250,-.360)</Male>
+										<Male>(.25,-.40)</Male>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -152,23 +160,26 @@
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
+							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Tails/Top</path>
 							<bodyPart>Tail</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<layerOffset>-.302</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.302</layerOffset>
 									<bodyTypes>
 										<Male>(0,0)</Male>
 									</bodyTypes>
 								</south>
 								<north>
+									<layerOffset>-.302</layerOffset>
 									<bodyTypes>
 										<Male>(0,-1)</Male>
 									</bodyTypes>
 								</north>
 								<east>
+									<layerOffset>-.302</layerOffset>
 									<bodyTypes>
 										<Male>(0,0)</Male>
 									</bodyTypes>
@@ -178,23 +189,26 @@
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
+							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Tails/Adjacent</path>
 							<bodyPart>Tail</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<layerOffset>-.311</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.311</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.2)</Male>
 									</bodyTypes>
 								</south>
 								<north>
+									<layerOffset>-.311</layerOffset>
 									<bodyTypes>
 										<Male>(0,0)</Male>
 									</bodyTypes>
 								</north>
 								<east>
+									<layerOffset>-.311</layerOffset>
 									<bodyTypes>
 										<Male>(1.2,-.360)</Male>
 									</bodyTypes>
@@ -204,6 +218,7 @@
 						</li>
 						<li>
 							<drawSize>1</drawSize>
+							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Left</path>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
@@ -212,36 +227,39 @@
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
-							<layerOffset>-.25</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.27</layerOffset>
 									<bodyTypes>
-										<Male>(-.415,.2)</Male>
+										<Male>(0,-.5)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</south>
 								<north>
+									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
-										<Male>(0,.6)</Male>
+										<Male>(0,-.35)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</north>
 								<east>
+									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>((-.42,.225)</Male>
+										<Male>((.15,-.5)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</east>
 							</offsets>
 						</li>
 						<li>
 							<drawSize>1</drawSize>
+							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Right</path>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
@@ -250,31 +268,33 @@
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
-							<layerOffset>-.25</layerOffset>
 							<offsets>
 								<south>
+									<layerOffset>-.27</layerOffset>
 									<bodyTypes>
-										<Male>(-.415,.2)</Male>
+										<Male>(0,-.5)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</south>
 								<north>
+									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
-										<Male>(0,.6)</Male>
+										<Male>(0,-.35)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</north>
 								<east>
+									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>((-.42,.225)</Male>
+										<Male>((.15,-.5)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
-									  </crownTypes>
+									</crownTypes>
 								</east>
 							</offsets>
 						</li>
@@ -293,15 +313,33 @@
 					</headOffsetDirectional>
 				</li>
 			</graphicPaths>
-			<hairSettings>
-				<hasHair>true</hasHair>
-				<getsGreyAt>9999999</getsGreyAt>
-				<hairTags>
-					<li>Rural</li>
-					<li>Tribal</li>
-					<li>Urban</li>
-				</hairTags>
-			</hairSettings>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTags>
+							<li>Rural</li>
+							<li>Tribal</li>
+							<li>Minimal</li>
+							<li>Urban</li>
+							<li>Punk</li>
+						</styleTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
 			<thoughtSettings>
 				<cannotReceiveThoughts>
 					<li>SleptOnGround</li>

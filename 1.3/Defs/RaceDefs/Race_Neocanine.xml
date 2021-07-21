@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Neocanine</defName>
 		<label>neocanine</label>
-		<description>Psssh</description>
+		<description>A canine-llke humanoid, a product of boundless glitterworld ambitions in bioengineering.</description>
 		<alienRace>
 			<generalSettings>
 				<notXenophobistTowards>
@@ -319,11 +319,8 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTags>
-							<li>Rural</li>
-							<li>Tribal</li>
-							<li>Minimal</li>
-							<li>Urban</li>
-							<li>Punk</li>
+							<li>HairLong</li>
+							<li>Wild</li>
 						</styleTags>
 					</value>
 				</li>
@@ -473,6 +470,7 @@
 			<lifeExpectancy>Infinity</lifeExpectancy>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>false</hasGenders>
+			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
 			<baseBodySize>1.2</baseBodySize>
 			<baseHealthScale>9</baseHealthScale>

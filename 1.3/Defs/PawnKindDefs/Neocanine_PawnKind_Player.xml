@@ -2,7 +2,7 @@
 <Defs>
     <PawnKindDef ParentName="BaseNeocaninePawnKind">
         <defName>Neocanine_PlayerColonist</defName>
-        <label></label>
+        <label>colonist</label>
         <defaultFactionType>NeocaninePlayerFaction</defaultFactionType>
         <apparelTags>
             <li>IndustrialBasic</li>

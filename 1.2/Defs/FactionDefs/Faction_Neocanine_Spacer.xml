@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef>
+	<FactionDef ParentName="FactionBase">
 		<defName>NeocanineSpacer</defName>
 		<label>Neocanine spacer</label>
 		<categoryTag>Ancient</categoryTag>
@@ -11,8 +11,8 @@
 		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
 		<techLevel>Spacer</techLevel>
         <hairTags>
-            <li>Urban</li>
-			<li>Rural</li>
+            <li>Wild</li>
+			<li>HairLong</li>
         </hairTags>
 		<backstoryFilters>
 			<li>

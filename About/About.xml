@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<packageId>powerlunatic.Neocanines</packageId>
   <url>https://github.com/martinlyra/rw-mod-neocanines</url>
-<description></description>
+<description>This mod adds an bioengineered species called Neocanines, a species of tauric humanoids drape with traits of wolves and other canines.</description>
 <modDependencies>
 	<li>
 		<packageId>erdelf.HumanoidAlienRaces</packageId>

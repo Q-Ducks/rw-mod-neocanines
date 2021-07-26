@@ -13,7 +13,10 @@
 				<canLayDown>true</canLayDown>
 				<maxDamageForSocialfight>32</maxDamageForSocialfight>
 				<forcedRaceTraitEntries>
-
+					<li>
+						<defName>Bisexual</defName>
+						<chance>100</chance>
+					</li>
 				</forcedRaceTraitEntries>
 				<disallowedTraits>
 					<li>

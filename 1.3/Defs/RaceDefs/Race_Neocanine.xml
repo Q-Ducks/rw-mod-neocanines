@@ -110,6 +110,7 @@
 							<drawSize>1.25</drawSize>
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBodyMask</path>
+							<shaderType>Transparent</shaderType>
 							<bodyPart>Body</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>

@@ -39,13 +39,16 @@
 				</disallowedTraits>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
-					<atlasScale>3</atlasScale>
-					<borderScale>3</borderScale>
+					<atlasScale>4</atlasScale>
+					<borderScale>4</borderScale>
 					<aliencrowntypes>
 						<li>Average_Normal</li>
 					</aliencrowntypes>
 					<alienbodytypes>
 						<li>Male</li>
+						<li>Female</li>
+						<li>Hulk</li>
+						<li>Fat</li>
 					</alienbodytypes>
 					<useGenderedHeads>false</useGenderedHeads>
 					<colorChannels>
@@ -112,18 +115,27 @@
 									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
+										<Female>(-.43,.00)</Female>
+										<Fat>(-.43,.00)</Fat>
+										<Hulk>(-.43,.00)</Hulk>
 									</bodyTypes>
 								</south>
 								<north>
 									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
+										<Female>(.00,-.600)</Female>
+										<Fat>(.00,-.600)</Fat>
+										<Hulk>(.00,-.600)</Hulk>
 									</bodyTypes>
 								</north>
 								<east>
 									<layerOffset>-.288</layerOffset>
 									<bodyTypes>
 										<Male>(.25,-.40)</Male>
+										<Female>(.25,-.40)</Female>
+										<Fat>(.25,-.40)</Fat>
+										<Hulk>(.25,-.40)</Hulk>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -134,25 +146,34 @@
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBody</path>
 							<bodyPart>Body</bodyPart>
-							<inFrontOfBody>true</inFrontOfBody>
+							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>
 								<south>
-									<layerOffset>-.301</layerOffset>
+									<layerOffset>-.305</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
+										<Female>(-.43,.00)</Female>
+										<Fat>(-.43,.00)</Fat>
+										<Hulk>(-.43,.00)</Hulk>
 									</bodyTypes>
 								</south>
 								<north>
-									<layerOffset>-.301</layerOffset>
+									<layerOffset>-.305</layerOffset>
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
+										<Female>(.00,-.600)</Female>
+										<Fat>(.00,-.600)</Fat>
+										<Hulk>(.00,-.600)</Hulk>
 									</bodyTypes>
 								</north>
 								<east>
-									<layerOffset>-.301</layerOffset>
+									<layerOffset>-.305</layerOffset>
 									<bodyTypes>
 										<Male>(.25,-.40)</Male>
+										<Female>(.25,-.40)</Female>
+										<Fat>(.25,-.40)</Fat>
+										<Hulk>(.25,-.40)</Hulk>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -161,56 +182,36 @@
 						<li>
 							<drawSize>1.25</drawSize>
 							<defaultOffset>Tail</defaultOffset>
-							<path>Things/Pawn/Neocanine/Tails/Top</path>
+							<path>Things/Pawn/Neocanine/Tails/Normal</path>
 							<bodyPart>Tail</bodyPart>
-							<inFrontOfBody>true</inFrontOfBody>
+							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>
 								<south>
-									<layerOffset>-.302</layerOffset>
-									<bodyTypes>
-										<Male>(0,0)</Male>
-									</bodyTypes>
-								</south>
-								<north>
-									<layerOffset>-.302</layerOffset>
-									<bodyTypes>
-										<Male>(0,-1)</Male>
-									</bodyTypes>
-								</north>
-								<east>
-									<layerOffset>-.302</layerOffset>
-									<bodyTypes>
-										<Male>(0,0)</Male>
-									</bodyTypes>
-								</east>
-							</offsets>
-							<drawnInBed>false</drawnInBed>
-						</li>
-						<li>
-							<drawSize>1.25</drawSize>
-							<defaultOffset>Tail</defaultOffset>
-							<path>Things/Pawn/Neocanine/Tails/Adjacent</path>
-							<bodyPart>Tail</bodyPart>
-							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>skin</colorChannel>
-							<offsets>
-								<south>
-									<layerOffset>-.311</layerOffset>
+									<layerOffset>-.3</layerOffset>
 									<bodyTypes>
 										<Male>(-.43,.2)</Male>
+										<Female>(-.43,.2)</Female>
+										<Fat>(-.43,.2)</Fat>
+										<Hulk>(-.43,.2)</Hulk>
 									</bodyTypes>
 								</south>
 								<north>
-									<layerOffset>-.311</layerOffset>
+									<layerOffset>-.3</layerOffset>
 									<bodyTypes>
-										<Male>(0,0)</Male>
+										<Male>(0,-1)</Male>
+										<Female>(0,-1)</Female>
+										<Fat>(0,-1)</Fat>
+										<Hulk>(0,-1)</Hulk>
 									</bodyTypes>
 								</north>
 								<east>
-									<layerOffset>-.311</layerOffset>
+									<layerOffset>-.3</layerOffset>
 									<bodyTypes>
 										<Male>(1.2,-.360)</Male>
+										<Female>(1.2,-.360)</Female>
+										<Fat>(1.2,-.360)</Fat>
+										<Hulk>(1.2,-.360)</Hulk>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -232,6 +233,9 @@
 									<layerOffset>-.27</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
+										<Female>(0,-.5)</Female>
+										<Fat>(0,-.5)</Fat>
+										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -241,6 +245,9 @@
 									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.35)</Male>
+										<Female>(0,-.35)</Female>
+										<Fat>(0,-.35)</Fat>
+										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -249,7 +256,10 @@
 								<east>
 									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>((.15,-.5)</Male>
+										<Male>(.15,-.5)</Male>
+										<Female>(.15,-.5)</Female>
+										<Fat>(.15,-.5)</Fat>
+										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -273,6 +283,9 @@
 									<layerOffset>-.27</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
+										<Female>(0,-.5)</Female>
+										<Fat>(0,-.5)</Fat>
+										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -282,6 +295,9 @@
 									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.35)</Male>
+										<Female>(0,-.35)</Female>
+										<Fat>(0,-.35)</Fat>
+										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -290,7 +306,10 @@
 								<east>
 									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>((.15,-.5)</Male>
+										<Male>(.15,-.5)</Male>
+										<Female>(.15,-.5)</Female>
+										<Fat>(.15,-.5)</Fat>
+										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -308,7 +327,7 @@
 					<headOffsetDirectional>
 						<north>(0.0, 0.05)</north>
 						<east>(0.15, 0.05)</east>
-						<west>(-0.15, 0.05</west>
+						<west>(-0.15, 0.05)</west>
 						<south>(0.0, 0.05)</south>
 					</headOffsetDirectional>
 				</li>

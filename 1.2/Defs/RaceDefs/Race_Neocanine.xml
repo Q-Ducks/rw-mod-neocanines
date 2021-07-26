@@ -232,7 +232,7 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>((-.42,.225)</Male>
+										<Male>(-.42,.225)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -270,7 +270,7 @@
 								</north>
 								<east>
 									<bodyTypes>
-										<Male>((-.42,.225)</Male>
+										<Male>(-.42,.225)</Male>
 									</bodyTypes>
 									<crownTypes>
 										<Normal_Average>(0,0)</Normal_Average>
@@ -288,7 +288,7 @@
 					<headOffsetDirectional>
 						<north>(0.0, 0.05)</north>
 						<east>(0.15, 0.05)</east>
-						<west>(-0.15, 0.05</west>
+						<west>(-0.15, 0.05)</west>
 						<south>(0.0, 0.05)</south>
 					</headOffsetDirectional>
 				</li>

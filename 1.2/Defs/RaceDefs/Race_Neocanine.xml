@@ -126,6 +126,7 @@
 								</east>
 							</offsets>
 							<drawnInBed>false</drawnInBed>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
@@ -152,6 +153,7 @@
 								</east>
 							</offsets>
 							<drawnInBed>false</drawnInBed>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
@@ -178,6 +180,7 @@
 								</east>
 							</offsets>
 							<drawnInBed>false</drawnInBed>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
 							<drawSize>1.25</drawSize>
@@ -204,6 +207,7 @@
 								</east>
 							</offsets>
 							<drawnInBed>false</drawnInBed>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
 							<drawSize>1</drawSize>
@@ -242,6 +246,7 @@
 									  </crownTypes>
 								</east>
 							</offsets>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 						<li>
 							<drawSize>1</drawSize>
@@ -280,6 +285,7 @@
 									  </crownTypes>
 								</east>
 							</offsets>
+							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 					</bodyAddons>
 				</alienPartGenerator>

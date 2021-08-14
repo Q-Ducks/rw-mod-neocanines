@@ -445,6 +445,7 @@
 			<lifeExpectancy>Infinity</lifeExpectancy>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>false</hasGenders>
+			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
 			<baseBodySize>1.2</baseBodySize>
 			<baseHealthScale>9</baseHealthScale>

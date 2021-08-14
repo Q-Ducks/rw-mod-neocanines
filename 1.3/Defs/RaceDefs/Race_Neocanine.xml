@@ -111,7 +111,7 @@
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBodyMask</path>
 							<shaderType>Transparent</shaderType>
-							<bodyPart>Body</bodyPart>
+							<bodyPart>canine body</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>
@@ -150,7 +150,7 @@
 							<drawSize>1.25</drawSize>
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBody</path>
-							<bodyPart>Body</bodyPart>
+							<bodyPart>canine body</bodyPart>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>

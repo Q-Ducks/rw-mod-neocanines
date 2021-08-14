@@ -418,7 +418,20 @@
 					<coverage>0.20</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>
+					<customLabel>canine body</customLabel>
+					<groups>
+						<li>Torso</li>
+					</groups>
 					<parts>
+						<li>
+							<def>Waist</def>
+							<coverage>0</coverage>
+							<height>Bottom</height>
+							<customLabel>canine body waist</customLabel>
+							<groups>
+								<li>Waist</li>
+							</groups>
+						</li>
 						<li>
 							<def>Tail</def>
 							<coverage>0.07</coverage>

@@ -373,7 +373,7 @@
 			</thoughtSettings>
 		</alienRace>
 		<statBases>
-			<Mass>260</Mass>
+			<Mass>180</Mass>
 			<MarketValue>3500</MarketValue>
 			<MoveSpeed>8</MoveSpeed>
 			<ImmunityGainSpeed>5.0</ImmunityGainSpeed>
@@ -495,7 +495,7 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>Infinity</lifeExpectancy>
+			<lifeExpectancy>500</lifeExpectancy>
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>false</hasGenders>
 			<nameGenerator>NamerPersonPlural</nameGenerator>
@@ -504,7 +504,7 @@
 			<baseHealthScale>9</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>OmnivoreHuman</foodType>
-			<nuzzleMtbHours>2</nuzzleMtbHours>
+			<nuzzleMtbHours>8</nuzzleMtbHours>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<meatMarketValue>0.8</meatMarketValue>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>

@@ -337,6 +337,8 @@
 			<TameAnimalChance>0.9</TameAnimalChance>
 			<TrainAnimalChance>0.9</TrainAnimalChance>
 			<AnimalGatherSpeed>1.1</AnimalGatherSpeed>
+			<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+			<CarryingCapacity>120</CarryingCapacity>
 		</statBases>
 		<tools>
 			<li>

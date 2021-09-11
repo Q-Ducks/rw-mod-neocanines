@@ -376,8 +376,8 @@
 			<Mass>180</Mass>
 			<MarketValue>3500</MarketValue>
 			<MoveSpeed>8</MoveSpeed>
-			<ImmunityGainSpeed>5.0</ImmunityGainSpeed>
-			<ImmunityGainSpeedFactor>5.0</ImmunityGainSpeedFactor>
+			<ImmunityGainSpeed>1</ImmunityGainSpeed>
+			<ImmunityGainSpeedFactor>4</ImmunityGainSpeedFactor>
 			<IncomingDamageFactor>0.8</IncomingDamageFactor>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
@@ -391,7 +391,7 @@
 			<TrainAnimalChance>0.9</TrainAnimalChance>
 			<AnimalGatherSpeed>1.1</AnimalGatherSpeed>
 			<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
-			<CarryingCapacity>120</CarryingCapacity>
+			<CarryingCapacity>100</CarryingCapacity>
 		</statBases>
 		<tools>
 			<li>
@@ -502,11 +502,11 @@
 			<hasGenders>false</hasGenders>
 			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
-			<baseBodySize>1.2</baseBodySize>
-			<baseHealthScale>9</baseHealthScale>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHealthScale>8</baseHealthScale>
 			<baseHungerRate>0.8</baseHungerRate>
 			<foodType>OmnivoreHuman</foodType>
-			<nuzzleMtbHours>8</nuzzleMtbHours>
+			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<meatMarketValue>0.8</meatMarketValue>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>

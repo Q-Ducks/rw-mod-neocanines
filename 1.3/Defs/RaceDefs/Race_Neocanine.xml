@@ -237,7 +237,7 @@
 							</hiddenUnderApparelFor>
 							<offsets>
 								<south>
-									<layerOffset>-.27</layerOffset>
+									<layerOffset>-.275</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
 										<Female>(0,-.5)</Female>
@@ -288,7 +288,7 @@
 							</hiddenUnderApparelFor>
 							<offsets>
 								<south>
-									<layerOffset>-.27</layerOffset>
+									<layerOffset>-.275</layerOffset>
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
 										<Female>(0,-.5)</Female>

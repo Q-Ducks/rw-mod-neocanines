@@ -504,8 +504,8 @@
 			<body>NeocanineAnatomy</body>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHealthScale>8</baseHealthScale>
-			<baseHungerRate>0.8</baseHungerRate>
-			<foodType>OmnivoreHuman</foodType>
+			<baseHungerRate>1.5</baseHungerRate>
+			<foodType>OmnivoreRoughAnimal, OmnivoreAnimal, OmnivoreHuman</foodType>
 			<nuzzleMtbHours>6</nuzzleMtbHours>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<meatMarketValue>0.8</meatMarketValue>

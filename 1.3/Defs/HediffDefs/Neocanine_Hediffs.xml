@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef>
-      <defName>TauricBody</defName>
-          <description>The lower body is a large body extension with four or more legs. Allowing more carrying capacity.</description>
-          <label>Tauric lower body</label>
-          <isBad>false</isBad>
-          <everCurableByItem>false</everCurableByItem>
-          <defaultLabelColor>(.5,.5,.5)</defaultLabelColor>
-          <scenarioCanAdd>false</scenarioCanAdd>
-          <maxSeverity>1.0</maxSeverity>
-          <stages>
-              <li>
-                  <becomeVisible>true</becomeVisible>
-                  <statOffsets>
-                      <CarryingCapacity>500</CarryingCapacity>
-                  </statOffsets>
-              </li>
-          </stages>
-  </HediffDef>
-
   <HediffGiverSetDef>
     <defName>NeocanineStandard</defName>
     <hediffGivers>
-      <li Class="HediffGiver_Birthday">
-        <hediff>TauricBody</hediff>
-        <ageFractionChanceCurve>
-          <points>
-            <li>(0, 1)</li>
-          </points>
-        </ageFractionChanceCurve>
-      </li>
     </hediffGivers>
   </HediffGiverSetDef>
 </Defs>

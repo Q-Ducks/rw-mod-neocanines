@@ -518,6 +518,7 @@
 									<coverage>0.15</coverage>
                                     <groups>
                                         <li>FrontLeftPaw</li>
+										<li>Feet</li>
                                     </groups>
 								</li>
 							</parts>
@@ -556,6 +557,7 @@
 									<coverage>0.15</coverage>
                                     <groups>
                                         <li>FrontRightPaw</li>
+										<li>Feet</li>
                                     </groups>
 								</li>
 							</parts>
@@ -591,6 +593,9 @@
 									<def>Paw</def>
 									<customLabel>rear left paw</customLabel>
 									<coverage>0.15</coverage>
+									<groups>
+										<li>Feet</li>
+									</groups>
 								</li>
 							</parts>
 						</li>
@@ -625,6 +630,9 @@
 									<def>Paw</def>
 									<customLabel>rear right paw</customLabel>
 									<coverage>0.15</coverage>
+									<groups>
+										<li>Feet</li>
+									</groups>
 								</li>
 							</parts>
 						</li>

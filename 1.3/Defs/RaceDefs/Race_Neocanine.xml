@@ -502,7 +502,7 @@
 			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
 			<baseBodySize>2.5</baseBodySize>
-			<baseHealthScale>8</baseHealthScale>
+			<baseHealthScale>4</baseHealthScale>
 			<baseHungerRate>1.5</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal, OmnivoreAnimal, OmnivoreHuman</foodType>
 			<nuzzleMtbHours>6</nuzzleMtbHours>

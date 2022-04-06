@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<RulePackDef>
+		<defName>NamerNeocanineUtility</defName>
+		<rulePack>
+			<rulesRaw>
+				<li Class="NeocanineSpecials.RulePersonVanilla">
+					<keyword>NameVanillaFirstMale</keyword>
+					<nameSlot>First</nameSlot>
+					<gender>Male</gender>
+				</li>
+				<li Class="NeocanineSpecials.RulePersonVanilla">
+					<keyword>NameVanillaFirstFemale</keyword>
+					<nameSlot>First</nameSlot>
+					<gender>Female</gender>
+				</li>
+				<li Class="NeocanineSpecials.RulePersonVanilla">
+					<keyword>NameVanillaNickMale</keyword>
+					<nameSlot>Nick</nameSlot>
+					<gender>Male</gender>
+				</li>
+				<li Class="NeocanineSpecials.RulePersonVanilla">
+					<keyword>NameVanillaNickFemale</keyword>
+					<nameSlot>Nick</nameSlot>
+					<gender>Female</gender>
+				</li>
+				<li Class="NeocanineSpecials.RulePersonVanilla">
+					<keyword>NameVanillaLast</keyword>
+					<nameSlot>Last</nameSlot>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
 		<defName>NamerPersonPlural</defName>
 		<include>
 			<li>NamerAnimalUtility</li>
+			<li>NamerNeocanineUtility</li>
 		</include>
 		<rulePack>
 			<rulesStrings>
@@ -12,8 +45,9 @@
 				<li>r_name->[r_last] [r_first]</li>
 				<li>r_name->[r_first] [r_last]</li>
 				
-				<li>r_last->[NamePersonMale]</li>
-				<li>r_last->[NamePersonFemale]</li>
+				<li>r_last(p=4)->[NameVanillaLast]</li>
+				<li>r_last->[NameVanillaFirstMale]</li>
+				<li>r_last->[NameVanillaFirstFemale]</li>
 				<li>r_last->[NamePersonUnisex]</li>
 				<li>r_last->[Color]</li>
 
@@ -23,14 +57,15 @@
 				<li>r_first->[NameAnimalMale]</li>
 				<li>r_first->[NameAnimalFemale]</li>
 				<li>r_first->[NameAnimalUnisex]</li>
-				<li>r_first(p=2)->[NamePersonMale]</li>
-				<li>r_first(p=4)->[NamePersonFemale]</li>
+				<li>r_first(p=2)->[NameVanillaFirstMale]</li>
+				<li>r_first(p=4)->[NameVanillaFirstFemale]</li>
 				<li>r_first(p=3)->[NamePersonUnisex]</li>
 
 				<li>r_nick->[NamePersonUnisex]</li>
 				<li>r_nick->[NameAnimalMale]</li>
 				<li>r_nick->[NameAnimalFemale]</li>
 				<li>r_nick->[NameAnimalUnisex]</li>
+				<li>r_nick->[NameVanillaLast]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

@@ -44,6 +44,7 @@
 				<alienPartGenerator>
 					<atlasScale>4</atlasScale>
 					<borderScale>4</borderScale>
+					<getsGreyAt>2147483647</getsGreyAt>
 					<aliencrowntypes>
 						<li>Average_Normal</li>
 					</aliencrowntypes>

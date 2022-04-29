@@ -201,6 +201,7 @@
 					<def>Shoulder</def>
 					<customLabel>left shoulder</customLabel>
 					<coverage>0.06</coverage><!-- 12 % -->
+					<woundAnchorTag>LeftShoulder</woundAnchorTag>
 					<groups>
 						<li>Shoulders</li>
 					</groups>
@@ -306,6 +307,7 @@
 					<def>Shoulder</def>
 					<customLabel>right shoulder</customLabel>
 					<coverage>0.06</coverage>
+					<woundAnchorTag>RightShoulder</woundAnchorTag>
 					<groups>
 						<li>Shoulders</li>
 					</groups>
@@ -495,6 +497,7 @@
 								<li>Legs</li>
 								<li>FrontLeftLeg</li>
 							</groups>
+							<woundAnchorTag>LeftLeg</woundAnchorTag>
 							<parts>
 								<li>
 									<def>Femur</def>
@@ -534,6 +537,7 @@
 								<li>Legs</li>
 								<li>FrontRightLeg</li>
 							</groups>
+							<woundAnchorTag>RightLeg</woundAnchorTag>
 							<parts>
 								<li>
 									<def>Femur</def>

@@ -379,6 +379,14 @@
 							</replacement>
 							<offsets>
 								<west>
+									<bodyTypes>
+										<!-- Relative to Hulk bodytype -->
+										<Male>(.06,0)</Male>
+										<Female>(0,0)</Female>
+										<Thin>(.01,0)</Thin>
+										<Fat>(.01,0)</Fat>
+										<Hulk>(0,0)</Hulk>
+									</bodyTypes>
 									<crownTypes>
 										<Average_Normal>(-.44, .29)</Average_Normal>
 									</crownTypes>
@@ -419,6 +427,14 @@
 							</replacement>
 							<offsets>
 								<east>
+									<bodyTypes>
+										<!-- Relative to Hulk bodytype -->
+										<Male>(-.06,0)</Male>
+										<Female>(0,0)</Female>
+										<Thin>(-.01,0)</Thin>
+										<Fat>(-.01,0)</Fat>
+										<Hulk>(0,0)</Hulk>
+									</bodyTypes>
 									<crownTypes>
 										<Average_Normal>(.44, .29)</Average_Normal>
 									</crownTypes>

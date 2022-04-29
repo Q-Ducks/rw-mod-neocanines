@@ -120,6 +120,7 @@
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
 										<Female>(-.43,.00)</Female>
+										<Thin>(-.43,.00)</Thin>
 										<Fat>(-.43,.00)</Fat>
 										<Hulk>(-.43,.00)</Hulk>
 									</bodyTypes>
@@ -129,6 +130,7 @@
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
 										<Female>(.00,-.600)</Female>
+										<Thin>(.00,-.600)</Thin>
 										<Fat>(.00,-.600)</Fat>
 										<Hulk>(.00,-.600)</Hulk>
 									</bodyTypes>
@@ -138,8 +140,9 @@
 									<bodyTypes>
 										<Male>(.25,-.40)</Male>
 										<Female>(.25,-.40)</Female>
+										<Thin>(.25,-.40)</Thin>
 										<Fat>(.25,-.40)</Fat>
-										<Hulk>(.25,-.40)</Hulk>
+										<Hulk>(.38,-.50)</Hulk>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -159,6 +162,7 @@
 									<bodyTypes>
 										<Male>(-.43,.00)</Male>
 										<Female>(-.43,.00)</Female>
+										<Thin>(-.43,.00)</Thin>
 										<Fat>(-.43,.00)</Fat>
 										<Hulk>(-.43,.00)</Hulk>
 									</bodyTypes>
@@ -168,6 +172,7 @@
 									<bodyTypes>
 										<Male>(.00,-.600)</Male>
 										<Female>(.00,-.600)</Female>
+										<Thin>(.00,-.600)</Thin>
 										<Fat>(.00,-.600)</Fat>
 										<Hulk>(.00,-.600)</Hulk>
 									</bodyTypes>
@@ -177,8 +182,9 @@
 									<bodyTypes>
 										<Male>(.25,-.40)</Male>
 										<Female>(.25,-.40)</Female>
+										<Thin>(.25,-.40)</Thin>
 										<Fat>(.25,-.40)</Fat>
-										<Hulk>(.25,-.40)</Hulk>
+										<Hulk>(.38,-.50)</Hulk>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -198,6 +204,7 @@
 									<bodyTypes>
 										<Male>(-.43,.2)</Male>
 										<Female>(-.43,.2)</Female>
+										<Thin>(-.43,.2)</Thin>
 										<Fat>(-.43,.2)</Fat>
 										<Hulk>(-.43,.2)</Hulk>
 									</bodyTypes>
@@ -207,6 +214,7 @@
 									<bodyTypes>
 										<Male>(0,-1)</Male>
 										<Female>(0,-1)</Female>
+										<Thin>(0,-1)</Thin>
 										<Fat>(0,-1)</Fat>
 										<Hulk>(0,-1)</Hulk>
 									</bodyTypes>
@@ -216,7 +224,8 @@
 									<bodyTypes>
 										<Male>(1.2,-.360)</Male>
 										<Female>(1.2,-.360)</Female>
-										<Fat>(1.2,-.360)</Fat>
+										<Thin>(1.2,-.360)</Thin>
+										<Fat>(1.3,-.460)</Fat>
 										<Hulk>(1.2,-.360)</Hulk>
 									</bodyTypes>
 								</east>
@@ -228,6 +237,7 @@
 							<drawSize>1</drawSize>
 							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Left</path>
+							<shaderType>Transparent</shaderType>
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
@@ -241,6 +251,7 @@
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
 										<Female>(0,-.5)</Female>
+										<Thin>(0,-.5)</Thin>
 										<Fat>(0,-.5)</Fat>
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
@@ -253,6 +264,7 @@
 									<bodyTypes>
 										<Male>(0,-.35)</Male>
 										<Female>(0,-.35)</Female>
+										<Thin>(0,-.35)</Thin>
 										<Fat>(0,-.35)</Fat>
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
@@ -265,6 +277,7 @@
 									<bodyTypes>
 										<Male>(.15,-.5)</Male>
 										<Female>(.15,-.5)</Female>
+										<Thin>(.15,-.5)</Thin>
 										<Fat>(.15,-.5)</Fat>
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
@@ -279,6 +292,7 @@
 							<drawSize>1</drawSize>
 							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Right</path>
+							<shaderType>Transparent</shaderType>
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
@@ -292,6 +306,7 @@
 									<bodyTypes>
 										<Male>(0,-.5)</Male>
 										<Female>(0,-.5)</Female>
+										<Thin>(0,-.5)</Thin>
 										<Fat>(0,-.5)</Fat>
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
@@ -304,6 +319,7 @@
 									<bodyTypes>
 										<Male>(0,-.35)</Male>
 										<Female>(0,-.35)</Female>
+										<Thin>(0,-.35)</Thin>
 										<Fat>(0,-.35)</Fat>
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
@@ -316,6 +332,7 @@
 									<bodyTypes>
 										<Male>(.15,-.5)</Male>
 										<Female>(.15,-.5)</Female>
+										<Thin>(.15,-.5)</Thin>
 										<Fat>(.15,-.5)</Fat>
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
@@ -327,6 +344,89 @@
 							<drawnDesiccated>false</drawnDesiccated>
 						</li>
 					</bodyAddons>
+
+					<anchorReplacements>
+						<li>
+							<originalTag>LeftEye</originalTag>
+							<replacement>
+								<rotation>South</rotation>
+								<tag>LeftEye</tag>
+								<canMirror>false</canMirror>
+								<offset>(0, 0, 0.26)</offset>
+								<range>0</range>
+								<layer>Head</layer>
+								<debugColor>(0,0,0,1)</debugColor>
+							</replacement>
+							<offsets>
+								<south>
+									<crownTypes>
+										<Average_Normal>(.12, .29)</Average_Normal>
+									</crownTypes>
+									<layerOffset>0.0</layerOffset>
+								</south>
+							</offsets>
+						</li>
+						<li>
+							<originalTag>LeftEye</originalTag>
+							<replacement>
+								<rotation>West</rotation>
+								<tag>LeftEye</tag>
+								<canMirror>false</canMirror>
+								<offset>(0, 0, 0.26)</offset>
+								<range>0</range>
+								<layer>Head</layer>
+								<debugColor>(0,0,0,1)</debugColor>
+							</replacement>
+							<offsets>
+								<west>
+									<crownTypes>
+										<Average_Normal>(-.44, .29)</Average_Normal>
+									</crownTypes>
+									<layerOffset>0.0</layerOffset>
+								</west>
+							</offsets>
+						</li>
+						<li>
+							<originalTag>RightEye</originalTag>
+							<replacement>
+								<rotation>South</rotation>
+								<tag>RightEye</tag>
+								<canMirror>false</canMirror>
+								<offset>(0, 0, 0.26)</offset>
+								<range>0</range>
+								<layer>Head</layer>
+								<debugColor>(1,1,1,1)</debugColor>
+							</replacement>
+							<offsets>
+								<south>
+									<crownTypes>
+										<Average_Normal>(-.12, .29)</Average_Normal>
+									</crownTypes>
+									<layerOffset>0.0</layerOffset>
+								</south>
+							</offsets>
+						</li>
+						<li>
+							<originalTag>RightEye</originalTag>
+							<replacement>
+								<rotation>East</rotation>
+								<tag>RightEye</tag>
+								<canMirror>false</canMirror>
+								<offset>(0, 0, 0.26)</offset>
+								<range>0</range>
+								<layer>Head</layer>
+								<debugColor>(1,1,1,1)</debugColor>
+							</replacement>
+							<offsets>
+								<east>
+									<crownTypes>
+										<Average_Normal>(.44, .29)</Average_Normal>
+									</crownTypes>
+									<layerOffset>0.0</layerOffset>
+								</east>
+							</offsets>
+						</li>
+					</anchorReplacements>
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>

@@ -575,6 +575,7 @@
 							<height>Bottom</height>
 							<groups>
 								<li>Legs</li>
+								<li>RearLeftLeg</li>
 							</groups>
 							<parts>
 								<li>
@@ -612,6 +613,7 @@
 							<height>Bottom</height>
 							<groups>
 								<li>Legs</li>
+								<li>RearRightLeg</li>
 							</groups>
 							<parts>
 								<li>

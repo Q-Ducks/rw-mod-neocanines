@@ -474,8 +474,8 @@
 		</alienRace>
 		<statBases>
 			<Mass>180</Mass>
-			<MarketValue>3500</MarketValue>
-			<MoveSpeed>8</MoveSpeed>
+			<MarketValue>4500</MarketValue>
+			<MoveSpeed>16</MoveSpeed>
 			<ImmunityGainSpeed>1</ImmunityGainSpeed>
 			<ImmunityGainSpeedFactor>4</ImmunityGainSpeedFactor>
 			<IncomingDamageFactor>0.8</IncomingDamageFactor>
@@ -499,15 +499,15 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
+				<power>10</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
-					<li>
-						<def>Stun</def>
-						<amount>22</amount>
-					</li>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
@@ -516,81 +516,117 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
+				<power>10</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
-					<li>
-						<def>Stun</def>
-						<amount>22</amount>
-					</li>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left hind kick</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>4.2</cooldownTime>
+				<chanceFactor>0.55</chanceFactor>
+				<linkedBodyPartsGroup>RearLeftLeg</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>44</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right hind kick</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>4.2</cooldownTime>
+				<chanceFactor>0.55</chanceFactor>
+				<linkedBodyPartsGroup>RearRightLeg</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>44</amount>
+						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
 			<li>
 				<label>left claw</label>
 				<capacities>
-				  <li>Scratch</li>
+					<li>Scratch</li>
 				</capacities>
 				<power>13</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
-				  <extraMeleeDamages>
-					<li>
-					  <def>Stun</def>
-					  <amount>14</amount>
-					</li>
-				  </extraMeleeDamages>
+					<extraMeleeDamages>
+						<li>
+						<def>Stun</def>
+						<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
 				</surpriseAttack>
-			  </li>
-			  <li>
+			</li>
+			<li>
 				<label>right claw</label>
 				<capacities>
-				  <li>Scratch</li>
+					<li>Scratch</li>
 				</capacities>
 				<power>13</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
-				  <extraMeleeDamages>
-					<li>
-					  <def>Stun</def>
-					  <amount>14</amount>
-					</li>
-				  </extraMeleeDamages>
+					<extraMeleeDamages>
+						<li>
+						<def>Stun</def>
+						<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
 				</surpriseAttack>
-			  </li>
-			  <li>
+			</li>
+			<li>
 				<label>razorfangs</label>
 				<capacities>
 				  <li>Bite</li>
 				</capacities>
-				<power>15</power>
+				<power>18</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.9</chanceFactor>
 				<surpriseAttack>
-				  <extraMeleeDamages>
-					<li>
-					  <def>Stun</def>
-					  <amount>14</amount>
-					</li>
-				  </extraMeleeDamages>
+					<extraMeleeDamages>
+						<li>
+						<def>Stun</def>
+						<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
 				</surpriseAttack>
-			  </li>
-			  <li>
+			</li>
+			<li>
 				<label>head</label>
 				<capacities>
-				  <li>Blunt</li>
+					<li>Blunt</li>
 				</capacities>
-				<power>5</power>
+				<power>8</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
-			  </li>
+			</li>
 		</tools>
 		<race>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
@@ -612,62 +648,62 @@
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 			<litterSizeCurve>
-			  <points>
-				<li>(0.5, 0)</li>
-				<li>(1, 1)</li>
-				<li>(1.01, 0.02)</li>
-				<li>(3.5, 0)</li>
-			  </points>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
 			</litterSizeCurve>
 			<lifeStageAges>
-			  <li>
-				<def>HumanlikeBaby</def>
-				<minAge>0</minAge>
-			  </li>
-			  <li>
-				<def>HumanlikeToddler</def>
-				<minAge>1.2</minAge>
-			  </li>
-			  <li>
-				<def>HumanlikeChild</def>
-				<minAge>4</minAge>
-			  </li>
-			  <li>
-				<def>HumanlikeTeenager</def>
-				<minAge>13</minAge>
-			  </li>
-			  <li>
-				<def>HumanlikeAdult</def>
-				<minAge>18</minAge>
-			  </li>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeToddler</def>
+					<minAge>1.2</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>4</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
+				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
-			  <volume>(0.3, 0.8, 0.4)</volume>
-			  <offset>(0,0,-0.3)</offset>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
 			</specialShadowData>
 			<ageGenerationCurve>
-			  <points>
-				<li>(16,0)</li>
-				<li>(20,100)</li>
-				<li>(40,100)</li>
-				<li>(60,50)</li>
-				<li>(70,30)</li>
-				<li>(80,20)</li>
-				<li>(120,10)</li>
-				<li>(180,1)</li>
-				<li>(250,0)</li>
-			  </points>
+				<points>
+					<li>(16,0)</li>
+					<li>(20,100)</li>
+					<li>(40,100)</li>
+					<li>(60,50)</li>
+					<li>(70,30)</li>
+					<li>(80,20)</li>
+					<li>(120,10)</li>
+					<li>(180,1)</li>
+					<li>(250,0)</li>
+				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>
-			  <li>OrganicStandard</li>
-			  <li>NeocanineStandard</li>
-			  <li>Human</li>
+				<li>OrganicStandard</li>
+				<li>NeocanineStandard</li>
+				<li>Human</li>
 			</hediffGiverSets>
-		  </race>
-		  <recipes>
+		</race>
+		<recipes>
 			<li>ExciseCarcinoma</li>
 			<li>AdministerMechSerumHealer</li>
 			<li>RemoveBodyPart</li>
@@ -676,6 +712,6 @@
 			<li>CureScaria</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
-		  </recipes>
+		</recipes>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

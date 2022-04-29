@@ -3,16 +3,6 @@
   <AlienRace.RaceSettings>
     <defName>NeocanineRaceSettings</defName>
     <pawnKindSettings>
-      <alienslavekinds>
-        <li>
-          <kindDefs>
-            <li>Neocanine_Spacer</li>
-            <li>Neocanine_PlayerColonist</li>
-          </kindDefs>
-          <chance>100.0</chance>
-        </li>
-      </alienslavekinds>
-
       <alienrefugeekinds>
         <li>
           <kindDefs>

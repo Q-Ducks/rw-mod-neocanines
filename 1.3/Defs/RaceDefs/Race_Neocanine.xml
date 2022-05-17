@@ -489,7 +489,7 @@
 			</thoughtSettings>
 		</alienRace>
 		<statBases>
-			<Mass>180</Mass>
+			<Mass>50</Mass>
 			<MarketValue>4500</MarketValue>
 			<MoveSpeed>16</MoveSpeed>
 			<ImmunityGainSpeed>1</ImmunityGainSpeed>

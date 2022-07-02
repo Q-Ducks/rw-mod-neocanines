@@ -654,6 +654,10 @@
 			<hasGenders>false</hasGenders>
 			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
+			<leatherDef>Leather_Neocanine</leatherDef>
+			<fleshType>Normal</fleshType>
+			<bloodDef>Filth_BloodNeocanine</bloodDef>
+			<meatColor>(90, 4, 4)</meatColor>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHealthScale>4</baseHealthScale>
 			<baseHungerRate>1.5</baseHungerRate>

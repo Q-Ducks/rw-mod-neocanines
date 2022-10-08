@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>NeocaninePlayerFaction</defName>
+		<label>Neocanine colonist</label>
+		<isPlayer>true</isPlayer>
+		
+		<basicMemberKind>Neocanine_PlayerColonist</basicMemberKind>
+
+		<description>A bioengineered canine-llke humanoid landed from the space.</description>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<techLevel>Spacer</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<geneticVariance>1</geneticVariance>
+
+		<rescueesCanJoin>true</rescueesCanJoin>
+		<autoFlee>false</autoFlee>
+
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+</Defs>

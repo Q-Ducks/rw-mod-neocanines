@@ -1,6 +1,14 @@
 # Neocanines - A race mod for Rimworld
 
-Requires [Humanoid Alien Races](https://github.com/erdelf/AlienRaces) mod, either cloned into `Mods` folder or by subscription to the Steam Workshop.
+![Mod preview image](About/Preview.png)
+
+Page @ [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2547207038)
+
+Clone into the `Mods` folder of your installed copy of Rimworld, please note to read **To build from scratch** for the assembly `.dll` as required by this mod. Steam Workshop version comes with one precompiled and ready to use. 
+
+## Dependencies
+
+Requires [Humanoid Alien Races](https://github.com/erdelf/AlienRaces) mod, either cloned into `Mods` folder or by subscription via the Steam Workshop.
 
 ## Legacy support
 

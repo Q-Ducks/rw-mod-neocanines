@@ -4,7 +4,7 @@ Requires [Humanoid Alien Races](https://github.com/erdelf/AlienRaces) mod, eithe
 
 ## Legacy support
 
-There are no plans to update this mod for 1.2, but please, feel free to contribute to the 1.2 version or older, to pass back back-compatible features back down that you see fit.
+There are no plans to update this mod for versions older than 1.4, but please, feel free to contribute to these versions, such like passing down back-compatible features or changes that you see fit.
 
 ## To build from scratch
 

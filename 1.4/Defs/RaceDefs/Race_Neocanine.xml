@@ -241,7 +241,6 @@
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<alignWithHead>true</alignWithHead>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
@@ -296,7 +295,6 @@
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<alignWithHead>true</alignWithHead>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>

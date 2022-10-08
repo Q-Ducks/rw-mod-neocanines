@@ -22,7 +22,7 @@ This mod has a single C# file required for the special name generation used, so 
 
 This mod has no library dependencies and can just be built straight away without pre-setup requirements taken. Assuming that you already have an development kit for NET 4.7.2 or newer. As for all Rimworld mods, it is required to target `v4.7.2`.
 
-To compile, run this command
+To compile, run this command inside the `Sources/NeocanineSpecials` folder, where the C# project files are located:
 ```Powershell
 dotnet build
 ```

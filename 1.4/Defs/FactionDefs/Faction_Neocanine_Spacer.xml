@@ -17,7 +17,7 @@
 				</categories>
 			</li>
 		</backstoryFilters>
-		<geneticVariance>1</geneticVariance>
+
 		<hidden>true</hidden>
 		<rescueesCanJoin>true</rescueesCanJoin>
 		<autoFlee>false</autoFlee>

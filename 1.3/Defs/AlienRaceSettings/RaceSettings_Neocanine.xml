@@ -33,7 +33,7 @@
           </pawnKindEntries>
           <factionDefs>
             <li>PlayerColony</li>
-            <li>Neocanine_PlayerColonist</li>
+            <li>NeocaninePlayerFaction</li>
           </factionDefs>
         </li>
       </alienwandererkinds>

@@ -11,7 +11,7 @@
           <chance>5.0</chance>
         </li>
       </alienslavekinds>
-      
+
       <alienrefugeekinds>
         <li>
           <kindDefs>
@@ -31,6 +31,10 @@
               <chance>40.0</chance>
             </li>
           </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+            <li>Neocanine_PlayerColonist</li>
+          </factionDefs>
         </li>
       </alienwandererkinds>
     </pawnKindSettings>

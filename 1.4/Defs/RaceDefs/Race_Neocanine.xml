@@ -45,14 +45,14 @@
 					<atlasScale>4</atlasScale>
 					<borderScale>4</borderScale>
 					<getsGreyAt>2147483647</getsGreyAt>
-					<aliencrowntypes>
-						<li>Average_Normal</li>
-					</aliencrowntypes>
-					<alienbodytypes>
+					<headTypes>
+						<li>Female_AverageNormal</li>
+					</headTypes>
+					<bodytypes>
 						<li>Male</li>
 						<li>Female</li>
 						<li>Hulk</li>
-					</alienbodytypes>
+					</bodytypes>
 					<useGenderedHeads>false</useGenderedHeads>
 					<colorChannels>
 						<li>
@@ -241,6 +241,7 @@
 							<bodyPart>left ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
+							<alignWithHead>true</alignWithHead>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
@@ -248,41 +249,41 @@
 								<south>
 									<layerOffset>-.275</layerOffset>
 									<bodyTypes>
-										<Male>(0,-.15)</Male>
-										<Female>(0,-.15)</Female>
-										<Thin>(0,-.15)</Thin>
-										<Fat>(0,-.15)</Fat>
-										<Hulk>(0,-.15)</Hulk>
+										<Male>(0,-.5)</Male>
+										<Female>(0,-.5)</Female>
+										<Thin>(0,-.5)</Thin>
+										<Fat>(0,-.5)</Fat>
+										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</south>
 								<north>
 									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
-										<Male>(0,-.0)</Male>
-										<Female>(0,-.0)</Female>
-										<Thin>(0,-.0)</Thin>
-										<Fat>(0,-.0)</Fat>
-										<Hulk>(0,-.0)</Hulk>
+										<Male>(0,-.35)</Male>
+										<Female>(0,-.35)</Female>
+										<Thin>(0,-.35)</Thin>
+										<Fat>(0,-.35)</Fat>
+										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</north>
 								<east>
 									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>(.0,-.1)</Male>
-										<Female>(.0,-.1)</Female>
-										<Thin>(.0,-.1)</Thin>
-										<Fat>(.0,-.1)</Fat>
-										<Hulk>(.0,-.1)</Hulk>
+										<Male>(.15,-.5)</Male>
+										<Female>(.15,-.5)</Female>
+										<Thin>(.15,-.5)</Thin>
+										<Fat>(.15,-.5)</Fat>
+										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</east>
 							</offsets>
 							<drawnDesiccated>false</drawnDesiccated>
@@ -295,6 +296,7 @@
 							<bodyPart>right ear</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
+							<alignWithHead>true</alignWithHead>
 							<hiddenUnderApparelFor>
 								<li>FullHead</li>
 							</hiddenUnderApparelFor>
@@ -302,41 +304,41 @@
 								<south>
 									<layerOffset>-.275</layerOffset>
 									<bodyTypes>
-										<Male>(0,-.15)</Male>
-										<Female>(0,-.15)</Female>
-										<Thin>(0,-.15)</Thin>
-										<Fat>(0,-.15)</Fat>
-										<Hulk>(0,-.15)</Hulk>
+										<Male>(0,-.5)</Male>
+										<Female>(0,-.5)</Female>
+										<Thin>(0,-.5)</Thin>
+										<Fat>(0,-.5)</Fat>
+										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</south>
 								<north>
 									<layerOffset>-.335</layerOffset>
 									<bodyTypes>
-										<Male>(0,-.0)</Male>
-										<Female>(0,-.0)</Female>
-										<Thin>(0,-.0)</Thin>
-										<Fat>(0,-.0)</Fat>
-										<Hulk>(0,-.0)</Hulk>
+										<Male>(0,-.35)</Male>
+										<Female>(0,-.35)</Female>
+										<Thin>(0,-.35)</Thin>
+										<Fat>(0,-.35)</Fat>
+										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</north>
 								<east>
 									<layerOffset>-.25</layerOffset>
 									<bodyTypes>
-										<Male>(.0,-.1)</Male>
-										<Female>(.0,-.1)</Female>
-										<Thin>(.0,-.1)</Thin>
-										<Fat>(.0,-.1)</Fat>
-										<Hulk>(.0,-.1)</Hulk>
+										<Male>(.15,-.5)</Male>
+										<Female>(.15,-.5)</Female>
+										<Thin>(.15,-.5)</Thin>
+										<Fat>(.15,-.5)</Fat>
+										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Normal_Average>(0,0)</Normal_Average>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+									</headTypes>
 								</east>
 							</offsets>
 							<drawnDesiccated>false</drawnDesiccated>
@@ -357,9 +359,9 @@
 							</replacement>
 							<offsets>
 								<south>
-									<crownTypes>
-										<Average_Normal>(.12, .29)</Average_Normal>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(.12, .29)</Female_AverageNormal>
+									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
 							</offsets>
@@ -385,9 +387,9 @@
 										<Fat>(.01,0)</Fat>
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Average_Normal>(-.44, .29)</Average_Normal>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(-.44, .29)</Female_AverageNormal>
+									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</west>
 							</offsets>
@@ -405,9 +407,9 @@
 							</replacement>
 							<offsets>
 								<south>
-									<crownTypes>
-										<Average_Normal>(-.12, .29)</Average_Normal>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(-.12, .29)</Female_AverageNormal>
+									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
 							</offsets>
@@ -433,9 +435,9 @@
 										<Fat>(-.01,0)</Fat>
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
-									<crownTypes>
-										<Average_Normal>(.44, .29)</Average_Normal>
-									</crownTypes>
+									<headTypes>
+										<Female_AverageNormal>(.44, .29)</Female_AverageNormal>
+									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</east>
 							</offsets>
@@ -458,12 +460,23 @@
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
+					<genderRespected>false</genderRespected>
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTags>
 							<li>HairLong</li>
 							<li>Wild</li>
+							<li>Rural</li>
+							<li>Urban</li>
+							<li>Punk</li>
+							<li>Soldier</li>
 						</styleTags>
+						<bannedTags>
+							<li>Shaved</li>
+							<li>Bald</li>
+							<li>Balding</li>
+							<li>HairShort</li>
+						</bannedTags>
 					</value>
 				</li>
 				<li>

@@ -46,6 +46,7 @@
 					<borderScale>4</borderScale>
 					<getsGreyAt>2147483647</getsGreyAt>
 					<headTypes>
+						<li>Male_AverageNormal</li>
 						<li>Female_AverageNormal</li>
 					</headTypes>
 					<bodytypes>
@@ -54,6 +55,7 @@
 						<li>Hulk</li>
 					</bodytypes>
 					<useGenderedHeads>false</useGenderedHeads>
+					<useGenderedBodies>false</useGenderedBodies>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -256,7 +258,7 @@
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</south>
 								<north>
@@ -269,7 +271,7 @@
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</north>
 								<east>
@@ -282,7 +284,7 @@
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</east>
 							</offsets>
@@ -311,7 +313,7 @@
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</south>
 								<north>
@@ -324,7 +326,7 @@
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</north>
 								<east>
@@ -337,7 +339,7 @@
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
+										<Male_AverageNormal>(0,0)</Male_AverageNormal>
 									</headTypes>
 								</east>
 							</offsets>
@@ -360,7 +362,7 @@
 							<offsets>
 								<south>
 									<headTypes>
-										<Female_AverageNormal>(.12, .29)</Female_AverageNormal>
+										<Male_AverageNormal>(.12, .29)</Male_AverageNormal>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
@@ -388,7 +390,7 @@
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(-.44, .29)</Female_AverageNormal>
+										<Male_AverageNormal>(-.44, .29)</Male_AverageNormal>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</west>
@@ -408,7 +410,7 @@
 							<offsets>
 								<south>
 									<headTypes>
-										<Female_AverageNormal>(-.12, .29)</Female_AverageNormal>
+										<Male_AverageNormal>(-.12, .29)</Male_AverageNormal>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
@@ -436,7 +438,7 @@
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(.44, .29)</Female_AverageNormal>
+										<Male_AverageNormal>(.44, .29)</Male_AverageNormal>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</east>
@@ -661,8 +663,8 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>500</lifeExpectancy>
-			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>false</hasGenders>
+			<nameCategory>HumanStandard</nameCategory>
 			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
 			<leatherDef>Leather_Neocanine</leatherDef>

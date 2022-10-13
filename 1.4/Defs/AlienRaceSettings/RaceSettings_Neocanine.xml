@@ -28,11 +28,23 @@
               <kindDefs>
                 <li>Neocanine_PlayerColonist</li>
               </kindDefs>
-              <chance>40.0</chance>
+              <chance>20.0</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
             <li>PlayerColony</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>Neocanine_PlayerColonist</li>
+              </kindDefs>
+              <chance>80.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
             <li>NeocaninePlayerFaction</li>
           </factionDefs>
         </li>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>Neocanine_Average</defName>
+        <graphicPath>Things/Pawn/Neocanine/Heads/Average_Normal</graphicPath>
+        <gender>None</gender>
+    </HeadTypeDef>
+</Defs>

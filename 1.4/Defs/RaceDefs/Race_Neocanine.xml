@@ -46,16 +46,19 @@
 					<borderScale>4</borderScale>
 					<getsGreyAt>2147483647</getsGreyAt>
 					<headTypes>
-						<li>Male_AverageNormal</li>
-						<li>Female_AverageNormal</li>
+						<li>Neocanine_Average</li>
 					</headTypes>
-					<bodytypes>
+					<bodyTypes>
 						<li>Male</li>
 						<li>Female</li>
 						<li>Hulk</li>
-					</bodytypes>
-					<useGenderedHeads>false</useGenderedHeads>
-					<useGenderedBodies>false</useGenderedBodies>
+					</bodyTypes>
+					<headOffsetDirectional>
+						<north>(0.0, 0.05)</north>
+						<east>(0.15, 0.05)</east>
+						<west>(-0.15, 0.05)</west>
+						<south>(0.0, 0.05)</south>
+					</headOffsetDirectional>
 					<colorChannels>
 						<li>
 							<name>skin</name>
@@ -113,7 +116,7 @@
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBodyMask</path>
 							<shaderType>Transparent</shaderType>
-							<bodyPart>canine body</bodyPart>
+							<bodyPartLabel>canine body</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>
@@ -155,7 +158,7 @@
 							<drawSize>1.25</drawSize>
 							<defaultOffset>Tail</defaultOffset>
 							<path>Things/Pawn/Neocanine/Body/LowerBody</path>
-							<bodyPart>canine body</bodyPart>
+							<bodyPartLabel>canine body</bodyPartLabel>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<offsets>
@@ -240,7 +243,7 @@
 							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Left</path>
 							<shaderType>Transparent</shaderType>
-							<bodyPart>left ear</bodyPart>
+							<bodyPartLabel>left ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<alignWithHead>true</alignWithHead>
@@ -258,7 +261,7 @@
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</south>
 								<north>
@@ -271,7 +274,7 @@
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</north>
 								<east>
@@ -284,7 +287,7 @@
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</east>
 							</offsets>
@@ -295,7 +298,7 @@
 							<defaultOffset>Head</defaultOffset>
 							<path>Things/Pawn/Neocanine/Ears/Right</path>
 							<shaderType>Transparent</shaderType>
-							<bodyPart>right ear</bodyPart>
+							<bodyPartLabel>right ear</bodyPartLabel>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<alignWithHead>true</alignWithHead>
@@ -313,7 +316,7 @@
 										<Hulk>(0,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</south>
 								<north>
@@ -326,7 +329,7 @@
 										<Hulk>(0,-.35)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</north>
 								<east>
@@ -339,7 +342,7 @@
 										<Hulk>(.15,-.5)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(0,0)</Male_AverageNormal>
+										<Neocanine_Average>(0,0)</Neocanine_Average>
 									</headTypes>
 								</east>
 							</offsets>
@@ -362,7 +365,7 @@
 							<offsets>
 								<south>
 									<headTypes>
-										<Male_AverageNormal>(.12, .29)</Male_AverageNormal>
+										<Neocanine_Average>(.12, .29)</Neocanine_Average>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
@@ -390,7 +393,7 @@
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(-.44, .29)</Male_AverageNormal>
+										<Neocanine_Average>(-.44, .29)</Neocanine_Average>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</west>
@@ -410,7 +413,7 @@
 							<offsets>
 								<south>
 									<headTypes>
-										<Male_AverageNormal>(-.12, .29)</Male_AverageNormal>
+										<Neocanine_Average>(-.12, .29)</Neocanine_Average>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</south>
@@ -438,7 +441,7 @@
 										<Hulk>(0,0)</Hulk>
 									</bodyTypes>
 									<headTypes>
-										<Male_AverageNormal>(.44, .29)</Male_AverageNormal>
+										<Neocanine_Average>(.44, .29)</Neocanine_Average>
 									</headTypes>
 									<layerOffset>0.0</layerOffset>
 								</east>
@@ -448,16 +451,9 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
-				<li>
-					<head>Things/Pawn/Neocanine/Heads/</head>
-					<skeleton>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</skeleton>
-					<headOffsetDirectional>
-						<north>(0.0, 0.05)</north>
-						<east>(0.15, 0.05)</east>
-						<west>(-0.15, 0.05)</west>
-						<south>(0.0, 0.05)</south>
-					</headOffsetDirectional>
-				</li>
+				<skinShader>Cutout</skinShader>
+				<head>Things/Pawn/Neocanine/Heads/</head>
+				<skeleton>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</skeleton>
 			</graphicPaths>
 			<styleSettings>
 				<li>

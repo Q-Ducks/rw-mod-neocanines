@@ -3,7 +3,8 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Neocanine</defName>
 		<label>neocanine</label>
-		<description>A canine-llke humanoid, a product of boundless glitterworld ambitions in bioengineering.</description>
+		<description>A canine-llke humanoid, a product of boundless glitterworld ambitions in
+			bioengineering.</description>
 		<alienRace>
 			<generalSettings>
 				<notXenophobistTowards>
@@ -15,7 +16,7 @@
 				<forcedRaceTraitEntries>
 					<li>
 						<defName>Bisexual</defName>
-						<chance>100</chance>
+						<chance>20</chance>
 					</li>
 				</forcedRaceTraitEntries>
 				<disallowedTraits>
@@ -45,10 +46,16 @@
 					<atlasScale>4</atlasScale>
 					<borderScale>4</borderScale>
 					<getsGreyAt>2147483647</getsGreyAt>
-					<headTypes>
+					<oldHairAgeCurve>
+						<points>
+							<li>(0,0)</li>
+							<li>(1,0)</li>
+						</points>
+					</oldHairAgeCurve>
+					<headTypes inherit="False">
 						<li>Neocanine_Average</li>
 					</headTypes>
-					<bodyTypes>
+					<bodyTypes inherit="False">
 						<li>Male</li>
 						<li>Female</li>
 						<li>Hulk</li>
@@ -496,6 +503,35 @@
 					<li>Naked</li>
 				</cannotReceiveThoughts>
 			</thoughtSettings>
+
+			<raceRestriction>
+				<whiteXenotypeList>
+					<li>Baseliner</li>
+				</whiteXenotypeList>
+				<onlyUseRaceRestrictedXenotypes>
+					true
+				</onlyUseRaceRestrictedXenotypes>
+				<whiteGeneList>
+				</whiteGeneList>
+				<whiteGeneTags>
+				</whiteGeneTags>
+				<blackEndoCategories>
+					<li>None</li>
+					<li>HairColor</li>
+					<li>BodyType</li>
+					<li>Melanin</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Headbone</li>
+					<li>Head</li>
+					<li>Voice</li>
+				</blackEndoCategories>
+				<onlyHaveRaceRestrictedGenes>
+					true
+				</onlyHaveRaceRestrictedGenes>
+			</raceRestriction>
 		</alienRace>
 		<statBases>
 			<Mass>50</Mass>
@@ -600,8 +636,8 @@
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
-						<def>Stun</def>
-						<amount>14</amount>
+							<def>Stun</def>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -617,8 +653,8 @@
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
-						<def>Stun</def>
-						<amount>14</amount>
+							<def>Stun</def>
+							<amount>14</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -626,7 +662,7 @@
 			<li>
 				<label>razorfangs</label>
 				<capacities>
-				  <li>Bite</li>
+					<li>Bite</li>
 				</capacities>
 				<power>18</power>
 				<cooldownTime>2</cooldownTime>
@@ -635,8 +671,8 @@
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
-						<def>Stun</def>
-						<amount>18</amount>
+							<def>Stun</def>
+							<amount>18</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -659,7 +695,7 @@
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>500</lifeExpectancy>
-			<hasGenders>false</hasGenders>
+			<hasGenders>true</hasGenders>
 			<nameCategory>HumanStandard</nameCategory>
 			<nameGenerator>NamerPersonPlural</nameGenerator>
 			<body>NeocanineAnatomy</body>
@@ -676,7 +712,7 @@
 			<meatMarketValue>0.8</meatMarketValue>
 			<manhunterOnDamageChance>0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
-			
+
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -685,7 +721,7 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			
+
 			<lifeStageAges>
 				<li>
 					<def>HumanlikeBaby</def>

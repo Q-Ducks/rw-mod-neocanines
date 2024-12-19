@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <AlienRace.RaceSettings>
+    <defName>NeocanineRaceSettings</defName>
+    <pawnKindSettings>
+      <alienslavekinds>
+        <li>
+          <kindDefs>
+            <li>Neocanine_PlayerColonist</li>
+          </kindDefs>
+          <chance>5.0</chance>
+        </li>
+      </alienslavekinds>
+
+      <alienrefugeekinds>
+        <li>
+          <kindDefs>
+            <li>Neocanine_PlayerColonist</li>
+          </kindDefs>
+          <chance>40.0</chance>
+        </li>
+      </alienrefugeekinds>
+
+      <alienwandererkinds>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>Neocanine_PlayerColonist</li>
+              </kindDefs>
+              <chance>20.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>Neocanine_PlayerColonist</li>
+              </kindDefs>
+              <chance>80.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>NeocaninePlayerFaction</li>
+          </factionDefs>
+        </li>
+      </alienwandererkinds>
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
+</Defs>

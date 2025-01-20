@@ -237,7 +237,7 @@
 							<path>Things/Pawn/Neocanine/Tails/Normal</path>
                             <conditions>
                                 <BodyPart>
-                                    <bodyPartLabel>Tail</bodyPartLabel>
+                                    <bodyPart>Tail</bodyPart>
                                     <drawWithoutPart>false</drawWithoutPart>
                                 </BodyPart>
                                 <Posture>

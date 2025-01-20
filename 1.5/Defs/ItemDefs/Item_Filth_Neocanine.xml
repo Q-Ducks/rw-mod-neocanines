@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+    <ThingDef ParentName="BaseFilth">
+        <defName>Filth_BloodNeocanine</defName>
+        <label>neocanine blood</label>
+
+        <!-- Slightly more visible than normal blood -->
+        <statBases>
+            <Beauty>-35</Beauty>
+            <Cleanliness>-12</Cleanliness>
+        </statBases>
+
+        <graphicData>
+            <texPath>Things/Filth/Spatter</texPath>
+            <color>(90, 4, 4, 229)</color>
+        </graphicData>
+
+        <filth>
+            <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+            <disappearsInDays>35~40</disappearsInDays>
+            <rainWashes>true</rainWashes>
+            <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+            <canFilthAttach>true</canFilthAttach>
+            <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+        </filth>
+    </ThingDef>
+</Defs>

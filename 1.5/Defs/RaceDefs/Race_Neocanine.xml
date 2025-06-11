@@ -185,7 +185,7 @@
                                 </BodyPart>
                                 <Apparel>
                                     <hiddenUnderApparelFor>
-                                        <li>FullHead</li>
+                                        <!--li>FullHead</li-->
                                         <!-- <li>Torso</li> -->
                                     </hiddenUnderApparelFor>
                                 </Apparel>

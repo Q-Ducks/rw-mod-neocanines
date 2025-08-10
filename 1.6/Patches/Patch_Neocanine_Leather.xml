@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>//RecipeDef[defName="Make_Patchleather"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+        <value>
+            <li>Leather_Neocanine</li>
+        </value>
+    </Operation>
+</Patch>

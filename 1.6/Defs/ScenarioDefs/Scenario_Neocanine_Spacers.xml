@@ -127,6 +127,20 @@
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
+			<!-- Required for 1.6 and after -->
+			<surfaceLayer> 
+				<def>SurfaceLayerFixed</def>
+				<tag>Surface</tag>
+				<layer>Surface</layer>
+				<settingsDef>Surface</settingsDef>
+				<hide>true</hide>
+				<connections>
+				<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+				<zoomMode>ZoomOut</zoomMode>
+				</Orbit>
+				</connections>
+			</surfaceLayer>
+
 		</scenario>
 	</ScenarioDef>
 </Defs>

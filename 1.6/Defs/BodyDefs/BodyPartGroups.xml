@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+	<BodyPartGroupDef>
+		<defName>RearLeftLeg</defName>
+		<label>rear left leg</label>
+		<labelShort>leg</labelShort>
+	</BodyPartGroupDef>
+		
+	<BodyPartGroupDef>
+		<defName>RearRightLeg</defName>
+		<label>rear right leg</label>
+		<labelShort>leg</labelShort>
+	</BodyPartGroupDef>
+</Defs>

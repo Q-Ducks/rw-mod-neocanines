@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+    <!-- Leather made from Neocanines -->
+    <ThingDef ParentName="LeatherBase">
+        <defName>Leather_Neocanine</defName>
+        <label>neocanine leather</label>
+        <description>Tanned, dried, scraped neocanine skin, the quality is described as human and wolf skins forced together. Most people find this material horrifying. Some find it fascinating and snug. While a decent leather, it neither protects nor insulates particularly well. Its rarity makes it a rather unfeasible material compared to other options, if available.</description>
+        <graphicData>
+          <color>(156,139,88)</color>
+        </graphicData>
+        <statBases>
+          <MarketValue>6.2</MarketValue>
+          <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+          <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+          <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+        </statBases>
+        <stuffProps>
+            <color>(156,139,88)</color>
+          <commonality>0.0005</commonality>
+        </stuffProps>
+      </ThingDef>
+</Defs>
